@@ -28,7 +28,6 @@ h6 {
 .lead {
     font-size: 18px;
     font-weight: 400;
-	padding: 70px;
 }
 
 .intro-header {
@@ -36,7 +35,7 @@ h6 {
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: url(../img/Boston-Skyline.jpg) no-repeat center center;
+    background: url(../startbootstrap-landing-page-gh-pages/img/Palace.jpg) no-repeat center center;
     background-size: cover;
 }
 
@@ -45,37 +44,26 @@ h6 {
     padding-top: 20%;
     padding-bottom: 20%;
 }
-
+.col-lg-12first{
+	background: #fff;
+	opacity: .8;
+}
 .intro-message > h1 {
-    margin: 0;
+    margin: 50px;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
     font-size: 5em;
+	font-	
 }
+h1{color:rgba(0,0,0,1.00)}
 
-h1{
-	background-color: rgba(56,56,56,0.50);
-}
-
-p{
-	background-color: rgba(56,56,56,0.80);
-}
-
-
-.intro-divider > h3 {
+.intro-divider {
     width: 400px;
     border-top: 1px solid #f8f8f8;
     border-bottom: 1px solid rgba(0,0,0,0.2);
 }
 
-
-
-
 .intro-message > h3 {
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
-}
-
-h3{
-	background-color: rgba(56,56,56,0.50);
 }
 
 @media(max-width:767px) {
@@ -133,15 +121,29 @@ h3{
 .banner {
     padding: 100px 0;
     color: #f8f8f8;
-    background: url(../img/banner-bg.jpg)no-repeat center center;
+    background: url(../startbootstrap-landing-page-gh-pages/img/banner-bg.jpg) no-repeat center center;
     background-size: cover;
 }
 
+.col-lg-8second{
+	background: #fff;
+	opacity: .8;
+}
 .banner h2 {
     margin: 0;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
     font-size: 3em;
 }
+
+h2{color:rgba(0,0,0,1.00)}
+
+
+.col-lg-6{
+	background: #fff;
+	opacity: .8;
+	text-align: center;
+}
+p{color:rgba(0,0,0,1.00)}
 
 .banner ul {
     margin-bottom: 0;
